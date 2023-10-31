@@ -19,7 +19,7 @@ li{
     color: chocolate;
 }
 
-/*Seleccionamos por id*/
-#Div{
-    color: dimgray;
+.pie{
+    background-color: violet;
+    background-size: cover;
 }

@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(84, 49, 242);
+    opacity: 1.6;
+}
+h1{ 
+    color: darkgrey;
+
+}
+a{
+    color: black;
+}
+.na{
+    color: rgb(255, 255, 255);
+}
+.se{
+    background-color: greenyellow;
+    opacity: 0.8;
+}
+
+.p1{
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+}

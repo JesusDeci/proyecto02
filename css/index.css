@@ -1,25 +1,22 @@
 /*seleccionamos el selector: de etiquetas*/
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: aquamarine; 
+    background: #5D4157;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
-h1{
-    color: blueviolet;
+.titprin{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
 }
-li{
-    color: chocolate;
+.contene{
+    display:flex ;
+    justify-content: center;
 }
-/*seleccion por clases*/
-.barraNav{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(128, 11, 115);
-    font-size: 20px;
-}
-.Ul1{
-    color: chocolate;
-}
-
-.pie{
-    background-color: violet;
-    background-size: cover;
+.produc{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
 }
